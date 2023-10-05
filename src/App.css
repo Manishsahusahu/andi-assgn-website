@@ -1,0 +1,15 @@
+.leftGradient {
+    box-shadow: 0px 0px 1000px 600px rgba(99, 80, 195, 0.287);
+}
+
+.textGradient{
+    background: linear-gradient(to bottom, blue, white, blue);
+    background-clip: text;
+    color: transparent;
+}
+
+@media (max-width: 767px) {
+    .leftGradient {
+        box-shadow: 0px 0px 100px 200px rgba(43, 0, 255, 0.355);
+    }
+}
